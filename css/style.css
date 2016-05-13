@@ -76,7 +76,7 @@ body{
 #landing{
     height: 100vh;
     background-color: grey;
-    background-image: url('img/landing.png');
+    background-image: url('../img/landing.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;  
@@ -330,7 +330,7 @@ body{
     margin-top: 20px;
     background-color: white;
     color: black;
-    padding: 1em 1em 1em 1em;
+    padding: 3em 3em 3em 3em;
 }
 
 
