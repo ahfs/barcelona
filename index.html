@@ -1,40 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Big Data &#38; Politics</title>
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style-responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/map.css">
+    
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js'></script> 
+    <script src="js/map.js"></script>
 </head>
+    
 <body>
     <div class="container-fluid">
-        <div id="landing">
-            <nav>
-                <ul>
-                    <li><a href="#papers">Call For Papers</a></li>
-                    <li><a href="#reigster">Register</a></li>
-                    <li><a href="#speakers">Speakers</a></li>
-                    <li><a href="#agenda">Agenda</a></li>
-                    <li><a href="#committee">Committee</a></li>
-                    <li><a href="#submission">Submission</a></li>
-                    <li><a href="#contact">Contacts</a></li>
-                </ul>
-            </nav>
-            <div class="social">
-                <ul>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>Email</li>
-                </ul>
+    
+        <!-- Navigation -->
+        <nav class="navbar navbar-fixed-top">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                  </button>
+                </div>
+
+                <div class="collapse navbar-collapse navbar-left" id="mynav">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#papers">Call For Papers</a></li>
+                       <!-- <li><a href="#register">Register</a></li> 
+                        <li><a href="#speakers">Speakers</a></li>
+                        <li><a href="#agenda">Agenda</a></li> --> 
+                        <li><a href="#submit">Submission</a></li>
+                        <li><a href="#committee">Committee</a></li> 
+                        <li><a href="#contacts">Contacts</a></li> 
+                    </ul>
+                </div>
+
+                </div>
+        </nav> <!-- End of Navigation -->
+
+        <!-- Start of Landing Screen -->
+        <section id="landing">
+            <div class="description vertical">
+                <span class="location">Date and Location</span><br>
+                <span class="event-name">Data Mining &#38; Politics</span>
+                <br>
+                <span class="dates">Important Dates</span>
             </div>
-        </div>
-        <div id="papers" class="row">
-            <div class="col-sm-6">
-                <p>Political analysts may once have depended entirely on subjective attributes, such as ethics, charisma, and non---scientific impressions of the electorate to forecast elections, but with the rise of data generated from human daily interaction with software systems, it is possible to add meaningful data---driven attributes to political forecasting alongside all of the demographic information available to today’s political consultant. Big Data collected using internet---of---things devices, online social networks, large---scale surveys, search engine queries, and others can be very useful for forecasting or guiding winning candidates. This applies to fomenting and forecasting political unrest as well as predicting democratic election outcome, as recent work on empirically determining tipping points in influencing public opinion has shown.</p>
-                <p>Marketing companies and election consultants have long used sophisticated polling techniques in order to determine and shape public opinion so that candidates can use their findings to their advantage. In the last decade, however, we have seen well---known applications of large---scale data analysis in politics. For example, in 2008, President Obama’s campaign very effectively monitored and leveraged social media as an important part of his campaign strategy.</p>
+            <div class="buttons vertical">
+            <button class="button button1">Submit Paper</button>
             </div>
-            <div class="col-sm-6">
+        <span class="vertical arrow"><a href="#papers"><i class="fa fa-angle-down fa-3x"></i></a></span>      
+        </section> <!-- End of Land Screen -->
+        
+        <section id="papers" class="row">
+            <div class="col-md-6 about">
+                <h3>Call For Papers</h3>
+                <p>Political analysts may once have depended entirely on subjective attributes, such as ethics, charisma, and non-scientific impressions of the electorate to forecast elections, but with the rise of data generated from human daily interaction with software systems, it is possible to add meaningful data-driven attributes to political forecasting alongside all of the demographic information available to today’s political consultant. Big Data collected using internet-of-things devices, online social networks, large-scale surveys, search engine queries, and others can be very useful for forecasting or guiding winning candidates. This applies to fomenting and forecasting political unrest as well as predicting democratic election outcome, as recent work on empirically determining tipping points in influencing public opinion has shown.</p>
+                <p>Marketing companies and election consultants have long used sophisticated polling techniques in order to determine and shape public opinion so that candidates can use their findings to their advantage. In the last decade, however, we have seen well-known applications of large-scale data analysis in politics. For example, in 2008, President Obama’s campaign very effectively monitored and leveraged social media as an important part of his campaign strategy.</p>
+            </div>
+            <div class="col-md-6 topics">
+                <h3>Topics of Interest</h3>
                 <p>There have been many attempts to utilize data mining algorithms and tools in advertising, financial services, medical applications and others, but rigorous discussion of Big Data techniques in politics have tended to be closely guarded. This workshop aims at bringing together researchers from interdisciplinary areas and strengthens collaboration between the political science and data mining communities in understanding the contemporary use of Big Data techniques in political campaigning. We encourage a useful exchange of ideas, techniques and datasets between researchers, political practitioners, social entrepreneurs, and corporate representatives through the workshop. Possible topics of interest include, but are not limited to:</p>
                 <ul>
                 <li>Political dataset collection, dimensionality reduction, cleaning, and processing</li>
@@ -44,37 +81,109 @@
                 <li>Data-oriented innovations in politics</li>
                 <li>Case studies of data mining tools for politics</li>
                 </ul>
-                <a href="" class="button">Download CFP</a>
+                <!--<button class="button button2">Download CFP</button>-->
             </div>
-        </div>
-        <div id="register" class="row">
-            <div class="col-sm-6">
-                <div id="countdown"></div>
+        </section>
+        <!-- Removed For Now 
+        <section id="register">
+            <div class="container">
+                <div class="col-sm-6">
+                    <p class="reg-text">Tickets are on sale now</p>
+                </div>
+                <div class="col-sm-6">
+                    <button class="button button1 register">Register Now</button>
+                </div>
             </div>
-            <div class="col-sm-6">
-                <a href="" class="button">Register Now</a>
+        </section>
+        <section id="speakers">
+            <div class="container">
+                <center><span class="title">Keynote Speakers</span></center>
+                <div class="row speaker">
+                <div class="col-sm-3"><img class="img-responsive" src="img/person.png"></div>
+                <div class="col-sm-3"><img class="img-responsive" src="img/person.png"></div>
+                <div class="col-sm-3"><img class="img-responsive" src="img/person.png"></div>
+                <div class="col-sm-3"><img class="img-responsive" src="img/person.png"></div>
+                </div>
             </div>
-        </div>
-        <div id="speakers">
-            
-        </div>
-        <div id="agenda">
-        <a href="" class="button">See Agenda</a>
-        </div>
-        <div id="committee">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4"></div>
-        </div>
-        <div id="submission">
-        <a href="" class="button">Submit Paper</a>
-        </div>
-        <div id="contact">
+        </section>
+        <section id="agenda">
+            <div class="container">
+                <div class="col-sm-7">
+                    <span class="agenda-norm"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></span>
+                    <span class="agenda-bold"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacus.</p></span>
+                    <button class="button button1">View Agenda</button>
+                </div>
+            </div>
+        </section>
+        -->
+        <section id="submission">
+            <div class="container">
+                <center><span class="title">Submission</span>
+                <p>We welcome two different types of publications: regular research papers and application demo papers. The page limit for all papers is 8 pages in the standard IEEE 2-column format <a href="http://www.ieee.org/conferences_events/conferences/publishing/templates.html">http://www.ieee.org/conferences_events/conferences/publishing/templates.html</a>, including the bibliography and any possible appendices. All papers must be formatted according to the IEEE Computer Society proceedings manuscript style, following IEEE ICDM 2016 submission guidelines available at <a href="http://icdm2016.eurecat.org/">http://icdm2016.eurecat.org/</a>. Papers should be submitted in PDF format, electronically, using the CyberChair submission system.</p>
+                <p>Every workshop paper must have at least one paid registration in order to be published. Accepted papers will be included in the IEEE ICDM 2016 Workshops Proceedings volume published by IEEE Computer Society Press, and will also be included in the IEEE Xplore Digital Library. The workshop proceedings will be in a CD separated from the CD of the main conference. The CD is produced by IEEE Conference Publishing Services (CPS). </p>
+                <p>Three program committee members will evaluate every submission. In order to offer feedback from technical as well as subject-­matter experts, at least one of these three members is from the political science community.</p></center>
+                <div class="row buttons vertical">
+                    <button class="big-button button1">Submit Paper</button>
+                </div>
+            </div>
+        </section>
+        <section id="committee">
+            <div class="container">
+                <center><span class="title">Organization</span></center>
+                <div class="row committee">
+                <div class="col-sm-6 left">
+                    <h3>Program Committee</h3><br>
+                    <div class="person">
+                        <p class="name">Dr.Paulo Shakarian</p>
+                        <p class="info">Arizona State University</p>
+                    </div>
+                    <div class="person">
+                        <p class="name">Dr. Amir Hajian</p>
+                        <p class="info">Thomson Reuters Lab</p>
+                    </div>
+                    <div class="person">
+                        <p class="name">Dr. Cliff Young</p>
+                        <p class="info">IPSOS</p>
+                    </div>
+                    <div class="person">
+                        <p class="name">Dr. Sam Wang</p>
+                        <p class="info">Princeton University</p>
+                    </div>
+                    <div class="person">
+                        <p class="name">Dr. Ahmed Farahat</p>
+                        <p class="info">Hitachi Labs</p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Workshop Chairs</h3><br>
+                    <div class="person">
+                        <p class="name">Dr. Amir Hajian</p>
+                        <p class="info">Thomson Reuters Lab</p>
+                    </div>
+                    <div class="person">
+                        <p class="name">Dr. Ken</p>
+                        <p class="info">CTO, Thomson Reuters</p>
+                    </div>
+                    <div class="person">
+                        <p class="name">Khaled Ammar</p>
+                        <p class="info"> University of Waterloo</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
         
-        <!-- Insert Map Here -->
-            <div class="info"></div>
+        <section id="contact"></section>  
+        <div id="map">
+            <div class="contact col-sm-offset-8 col-sm-2">
+                <h3>Venue</h3>
+            </div>
         </div>
-    </div>
-    <script type="text/javascript" src="js/style.js"></script>
+        <div id="footer">
+        </div>
+    </div> <!-- Fluid Container Ends -->
+
+
+
 </body>
-</html>
+</html>                                		

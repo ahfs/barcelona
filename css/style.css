@@ -1,6 +1,339 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700);
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif!important; 
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+/* Navigation */
+
+.navbar-fixed-top{
+    background-color: white;
+    height: 100px;
+    border-bottom: 3px solid #F6B352;
+}
+
+.navbar-nav li{
+    margin-top: 40px;
+    padding-right: 2em;
+}
+
+.navbar-nav a{
+    color: #383A3F;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.8em;
+    text-decoration: none;
+    position: relative;
+    padding: 0!important;
+}
+
+.navbar-nav a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid #383A3F;
+    transition: 0.4s;
+}
+
+.navbar-toggle {
+    margin-top: 40px;
+}
+
+.navbar-nav a:hover{ /* removes bootstrap link hover */
+    background-color: transparent!important;
+}
+
+.navbar-nav a:hover:after {
+    width: 100%;
+}
+
+
+.icon-bar { /* hamburger bar */
+   background-color:#000000!important;
+}
+
+/* Collapse Nav Menu Style */
+.collapsing, .in {
+	background-color: #f7f7f7;
+}
+
+.collapsing ul li a, .in ul li a {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	color: #555!important;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+
+/* Landing Screen */
+
+#landing{
+    height: 100vh;
+    background-image: url('img/landing.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vertical {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.description {
+    top: 35%;
+    text-align: center;
+}
+
+.location{
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.event-name {
+    font-size: 7em;
+    font-weight: 700;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.dates {
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.buttons{
+    position: relative;
+    top: 70%;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    padding: 12px 40px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer; 
+}
+
+.big-button {
+    border: none;
+    padding: 12px 40px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer; 
+}
+
+.button1 {
+    background-color: transparent; 
+    color: #fff; 
+    border: 3px solid #fff;
+}
+
+.button1:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.arrow {
+    bottom: 3em;
+    text-align: center;
+}
+
+.arrow i{
+    color: white;
+}
+
+/* Call For Papers */
+
+#papers{
+    font-size: 1.5em;
+}
+
+.button2 {
+    background-color: transparent; 
+    color: #000; 
+    border: 3px solid #000;
+}
+
+.button2:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.about{
+    background-color: #F68657;
+    color: white;
+}
+
+.about, .topics{
+    padding: 4em 4em 4em 4em;
+}
+.about p, .topics, topics li {
     font-weight: 300;
+}
+
+
+/* Register */
+
+#register{
+    height: 40vh;
+    background-color: orange;
+}
+
+.register{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+.reg-text{
+    font-size: 3vh;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    margin-top: 21%;
+}
+
+/* Keynote Speakers */
+
+#speakers{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.title {
+    font-size: 7vh;
+    font-weight: 500;
+}
+
+.speaker {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.img-responsive {
+    margin: 0 auto;
+    padding-bottom: 3vh;
+}
+
+/* Schedule */
+
+#agenda{
+    height: 50vh;
+    background-color: dodgerblue;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.agenda-norm{
+    color: white;
+    font-size: 2vh;
+    font-weight: 300;
+}
+
+.agenda-bold{
+    color: white;
+    font-size: 3vh;
+}
+
+/* Committee */
+
+#committee{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.committee {
+    margin-top: 2em;
+}
+
+.person {
+    padding-bottom: 2em;
+}
+
+.name {
+    font-weight: 400;
+    font-size: 1.5em;
+    line-height: 0.6;
+}
+
+.info {
+    font-weight: 300;
+    line-height: 1;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+#submission{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #383A3F;
+}
+
+#submission .title{
+    color: white;
+}
+
+#submission a{
+    color: white;
+    text-decoration: underline;
+}
+
+#submission p{
+    color: white;
+    font-size: 1.3em;
+    padding-bottom: 1em;
+    font-weight: 300;
+}
+
+#contact{
+}
+
+
+#map {
+    z-index: 1!important;
+    width: 100%;
+    height: 600px;
+    background-color: #CCC;
+  }
+
+.contact{
+    z-index: 1000;
+    margin-top: 20px;
+    height: 100px;
+    background-color: white;
+    color: black;
+    padding: 1em 1em 1em 1em;
+}
+
+#footer {
+    height: 50px;
+    background-color: #383A3F;
 }
