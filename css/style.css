@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700);
 
+.not-front #region-header-first .field-name-field-headline,.not-front #region-header-first .field-name-field-subhead{color:#ffffff !important;}
+
 body{
     font-family: 'Roboto', sans-serif!important; 
 }
@@ -25,7 +27,7 @@ body{
     color: #383A3F;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: 1em;
     text-decoration: none;
     position: relative;
     padding: 0!important;
@@ -89,6 +91,8 @@ body{
 .description {
     top: 35%;
     text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
 }
 
 .location{
@@ -292,9 +296,8 @@ body{
 }
 
 #submission{
-    padding-top: 5vh;
-    padding-bottom: 5vh;
     background-color: #383A3F;
+    padding: 5em 0 5em 0;
 }
 
 #submission .title{
@@ -304,6 +307,10 @@ body{
 #submission a{
     color: white;
     text-decoration: underline;
+}
+
+#submission a:hover{
+    color:#F6B352;
 }
 
 #submission p{
@@ -316,6 +323,14 @@ body{
 #contact{
 }
 
+.contact{
+    z-index: 1000;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    padding: 1em 1em 1em 1em;
+}
+
 
 #map {
     z-index: 1!important;
@@ -324,13 +339,9 @@ body{
     background-color: #CCC;
   }
 
-.contact{
-    z-index: 1000;
-    margin-top: 20px;
-    height: 100px;
-    background-color: white;
-    color: black;
-    padding: 1em 1em 1em 1em;
+
+.contact h3{
+    
 }
 
 #footer {
