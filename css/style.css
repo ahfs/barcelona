@@ -260,7 +260,7 @@ body{
     font-size: 3vh;
 }
 
-/* Committee */
+/* Organization */
 
 #committee{
     padding-top: 5vh;
@@ -277,7 +277,7 @@ body{
 }
 
 .name {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1.5em;
     line-height: 0.6;
 }
@@ -314,6 +314,30 @@ body{
     font-weight: 300;
 }
 
+/* Important Dates */
+
+#dates{
+    width: 100%;
+    background-color: #EA6049;
+    background-attachment: fixed;
+}
+
+.date-info{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#dates h3{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+
+#dates li{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+}
 
 /* Contact and Map */
 .contact{
