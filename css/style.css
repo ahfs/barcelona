@@ -99,7 +99,7 @@ body{
 }
 
 .event-name {
-    font-size: 7em;
+    font-size: 7vw;
     font-weight: 700;
     padding-top: 3vh;
     padding-bottom: 3vh;
@@ -287,13 +287,7 @@ body{
     line-height: 1;
 }
 
-.center {
-    text-align: center;
-}
 
-.right {
-    text-align: right;
-}
 
 #submission{
     background-color: #383A3F;
@@ -320,6 +314,8 @@ body{
     font-weight: 300;
 }
 
+
+/* Contact and Map */
 .contact{
     z-index: 1!important;
     margin-top: 20px;
@@ -360,7 +356,17 @@ body{
     color: #F68657;
 }
 
+
+/*Footer */
 #footer {
     height: 50px;
-    background-color: #383A3F;
+    background-color: #FFC152;
+}
+
+#footer p{
+    color: white;
+    text-transform: capitalize;
+    font-size: 8px;
+    text-align: center;
+    padding-top: 10px;
 }
