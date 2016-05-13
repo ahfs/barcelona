@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700);
 
 body{
-    font-family: 'Roboto', sans-serif!important; 
+    font-family: 'Roboto', sans-serif!important;
+    background-color: lightgrey;
 }
 
 .container-fluid{
@@ -186,6 +187,10 @@ body{
     color: white;
 }
 
+.topics{
+    background-color: white;
+}
+
 .about, .topics{
     padding: 4em 4em 4em 4em;
 }
@@ -264,6 +269,7 @@ body{
 #committee{
     padding-top: 5vh;
     padding-bottom: 5vh;
+    background-color: white;
 }
 
 .committee {
