@@ -46,8 +46,12 @@
     }
     
     .contact{
-        padding: 2em 4em 2em;
+        padding: 1em 3em 1em;
+        padding-top: 0;
     }
+    
+    /* Footer */
+    
 }
 
 
