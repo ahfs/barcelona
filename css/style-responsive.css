@@ -1,0 +1,72 @@
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+    /* Navigation */
+    
+    .navbar-fixed-top {
+        height: 50px;
+    }
+    .collapsing ul li a, .in ul li a{
+        padding-left: 20px!important;
+        font-size: 15px;
+    }
+    
+    /* Landing */
+    .location{
+        font-size: 1.5em;
+    }
+    
+    .event-name{
+        font-size: 3.5em;
+    }
+    
+    .dates {
+        font-size: 1.5em;
+    }
+    
+    
+    /* Call For Papers */
+    .about, .topics{
+    padding: 2em 2em 2em 2em;
+    }
+    
+    /* Submission */
+    
+    #submission {
+        padding: 5em 2em 5em 2em;
+    }
+    
+    /* Organization */
+    #committee{
+        padding-bottom: 0;
+    }
+    
+    /* Contact and Map */
+    
+    #map {
+        display: none;
+    }
+    
+    .contact{
+        padding: 2em 4em 2em;
+    }
+}
+
+
+/*Small Devices (Tablet)*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/*Medium & Large Devices */
+@media only screen and (min-width: 992px) {
+    .arrow {
+        margin-top: 5%;
+    }
+
+}
+
+
+
+
+
+
+

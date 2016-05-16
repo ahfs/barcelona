@@ -41,8 +41,8 @@ body{
     transition: 0.4s;
 }
 
-.navbar-toggle {
-    margin-top: 40px;
+.navbar-toggle {  /* Move Hamburger Bar */
+    padding-right: 20px!important;
 }
 
 .navbar-nav a:hover{ /* removes bootstrap link hover */
@@ -60,14 +60,13 @@ body{
 
 /* Collapse Nav Menu Style */
 .collapsing, .in {
-	background-color: #f7f7f7;
+	background-color: #fff;
 }
 
 .collapsing ul li a, .in ul li a {
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
-	color: #555!important;
+	color: #59595E;
 	border-bottom: 1px solid #f1f1f1;
+
 }
 
 
@@ -79,6 +78,7 @@ body{
     background-image: url('../img/landing.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: top center;
     background-attachment:fixed;  
 }
 
@@ -260,35 +260,7 @@ body{
     font-size: 3vh;
 }
 
-/* Organization */
-
-#committee{
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    background-color: white;
-}
-
-.committee {
-    margin-top: 2em;
-}
-
-.person {
-    padding-bottom: 2em;
-}
-
-.name {
-    font-weight: 300;
-    font-size: 1.5em;
-    line-height: 0.6;
-}
-
-.info {
-    font-weight: 300;
-    line-height: 1;
-}
-
-
-
+/* Submission */
 #submission{
     background-color: #383A3F;
     padding: 5em 0 5em 0;
@@ -338,6 +310,38 @@ body{
     font-size: 1.5em;
     font-weight: 300;
 }
+
+/* Organization */
+
+#committee{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: white;
+}
+
+.committee {
+    margin-top: 2em;
+}
+
+.committee h3{
+    padding-bottom: 20px;
+}
+
+.person {
+    padding-bottom: 2em;
+}
+
+.name {
+    font-weight: 300;
+    font-size: 1.5em;
+    line-height: 0.6;
+}
+
+.info {
+    font-weight: 300;
+    line-height: 1;
+}
+
 
 /* Contact and Map */
 .contact{
