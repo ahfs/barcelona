@@ -405,16 +405,3 @@ body{
     display: inline;
     padding-right: 1em;
 }
-
-.mobile_menu_bar:before {
-            display:none}
-    .mobile_menu_bar::after {
-            font-family: Arial;
-            content: "MENU";
-            position: relative;
-            padding: 10px 20px 10px 20px;
-            background-color: #3e4555;
-            color: #FFFFFF!important;
-        cursor: pointer;}
-    .mobile_nav.opened .mobile_menu_bar:after {
-        content: "CLOSE";}
