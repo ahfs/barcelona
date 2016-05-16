@@ -61,6 +61,7 @@ body{
 /* Collapse Nav Menu Style */
 .collapsing, .in {
 	background-color: #fff;
+    box-shadow: 0px 1px 5px #888888;
 }
 
 .collapsing ul li a, .in ul li a {
@@ -386,15 +387,31 @@ body{
 }
 
 /*Footer */
-#footer {
-    height: 50px;
+.footer {
     background-color: #FFC152;
+    padding-top: 25px;
+    padding-bottom: 20px;
 }
 
-#footer p{
+.footer a{
     color: white;
-    text-transform: capitalize;
-    font-size: 8px;
-    text-align: center;
-    padding-top: 10px;
+    font-weight: 300;
 }
+
+.footer ul li{
+    display: inline;
+    padding-right: 1em;
+}
+
+.mobile_menu_bar:before {
+            display:none}
+    .mobile_menu_bar::after {
+            font-family: Arial;
+            content: "MENU";
+            position: relative;
+            padding: 10px 20px 10px 20px;
+            background-color: #3e4555;
+            color: #FFFFFF!important;
+        cursor: pointer;}
+    .mobile_nav.opened .mobile_menu_bar:after {
+        content: "CLOSE";}
