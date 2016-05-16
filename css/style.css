@@ -84,7 +84,7 @@ body{
 
 .description {
     position: absolute;
-    top: 53%;
+    top: 55%;
     left: 0;
     right: 0;
     margin-top: -200px;
@@ -101,6 +101,7 @@ body{
 .event-name {
     font-size: 7vw;
     font-weight: 700;
+    line-height: 1;
 }
 
 .dates {
@@ -163,6 +164,7 @@ body{
 
 #papers{
     font-size: 1.5em;
+    background-color: #F68657;
 }
 
 .button2 {
@@ -342,6 +344,10 @@ body{
 
 
 /* Contact and Map */
+
+#contact{
+    background-color: white;
+}
 .contact{
     z-index: 1!important;
     margin-top: 20px;
