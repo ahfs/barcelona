@@ -2,6 +2,11 @@
 
 body{
     font-family: 'Roboto', sans-serif!important;
+    background-image: url('../img/landing.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment:fixed;  
 }
 
 .container-fluid{
@@ -75,17 +80,11 @@ body{
 
 #landing{
     height: 100vh;
-    background-color: grey;
-    background-image: url('../img/landing.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top center;
-    background-attachment:fixed;  
 }
 
 .description {
     position: absolute;
-    top: 50%;
+    top: 53%;
     left: 0;
     right: 0;
     margin-top: -200px;
@@ -102,8 +101,6 @@ body{
 .event-name {
     font-size: 7vw;
     font-weight: 700;
-    padding-top: 3vh;
-    padding-bottom: 3vh;
 }
 
 .dates {
@@ -291,7 +288,7 @@ body{
 
 #dates{
     width: 100%;
-    background-color: #EA6049;
+    background-color: rgba(234,96,73,0.5);
     background-attachment: fixed;
 }
 
