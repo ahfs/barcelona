@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700); /* Font */
 
 body{
     font-family: 'Roboto', sans-serif!important;
@@ -7,6 +7,11 @@ body{
     background-size: cover;
     background-position: top center;
     background-attachment:fixed;  
+}
+
+.title {
+    font-size: 7vh;
+    font-weight: 500;
 }
 
 .container-fluid{
@@ -75,40 +80,7 @@ body{
 
 }
 
-
-/* Landing Screen */
-
-#landing{
-    height: 100vh;
-}
-
-.description {
-    position: absolute;
-    top: 55%;
-    left: 0;
-    right: 0;
-    margin-top: -200px;
-    text-align: center;
-    color: white;
-    text-shadow: black 0.1em 0.1em 0.2em
-}
-
-.location{
-    font-size: 2em;
-    font-weight: 400;
-}
-
-.event-name {
-    font-size: 7vw;
-    font-weight: 700;
-    line-height: 1;
-}
-
-.dates {
-    font-size: 2em;
-    font-weight: 400;
-}
-
+/* Button Styling */
 .buttons{
     margin-top: 5em;
 }
@@ -150,6 +122,40 @@ body{
 .button1:hover {
     background-color: #fff;
     color: #000;
+}
+
+
+/* Landing Screen */
+
+#landing{
+    height: 100vh;
+}
+
+.description {
+    position: absolute;
+    top: 55%;
+    left: 0;
+    right: 0;
+    margin-top: -200px;
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.location{
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.event-name {
+    font-size: 7vw;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.dates {
+    font-size: 2em;
+    font-weight: 400;
 }
 
 .arrow {
@@ -194,71 +200,6 @@ body{
     font-weight: 300;
 }
 
-
-/* Register */
-
-#register{
-    height: 40vh;
-    background-color: orange;
-}
-
-.register{
-    display: block;
-    margin: 0 auto;
-    margin-top: 20%;
-}
-
-.reg-text{
-    font-size: 3vh;
-    font-weight: 700;
-    color: white;
-    text-transform: uppercase;
-    display: block;
-    margin: 0 auto;
-    margin-top: 21%;
-}
-
-/* Keynote Speakers */
-
-#speakers{
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-}
-
-.title {
-    font-size: 7vh;
-    font-weight: 500;
-}
-
-.speaker {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-}
-
-.img-responsive {
-    margin: 0 auto;
-    padding-bottom: 3vh;
-}
-
-/* Schedule */
-
-#agenda{
-    height: 50vh;
-    background-color: dodgerblue;
-    padding-top: 10vh;
-    padding-bottom: 5vh;
-}
-
-.agenda-norm{
-    color: white;
-    font-size: 2vh;
-    font-weight: 300;
-}
-
-.agenda-bold{
-    color: white;
-    font-size: 3vh;
-}
 
 /* Submission */
 #submission{
